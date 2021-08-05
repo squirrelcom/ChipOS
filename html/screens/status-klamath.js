@@ -1,1 +1,1 @@
-screens.status-klamath = '<img id="splash" class="map" src="img/" />';
+screens.statusklamath = '<img id="splash" class="map" src="img/automaps-klamath-mall.gif" />';
