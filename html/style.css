@@ -1,6 +1,6 @@
 @font-face {
-  font-family: "jh";
-  src: url('jh_fallout-webfont.woff') format('woff');
+  font-family: "sans serif";
+  src: url('FjallaOne-Regular.woff') format('woff');
 }
 
 * {
@@ -8,9 +8,9 @@
 }
 
 body {
-  font-family: "jh";
+  font-family: "sans serif";
   background: #300;
-  font-size: 12px;
+  font-size: 20px;
   margin: 0;
 }
 
@@ -25,7 +25,7 @@ div#container {
 
 h2 {
   text-align: center;
-  font-size: 12px;
+  font-size: 16px;
   text-decoration: underline;
   margin-top: 0;
   margin-bottom: 0;
