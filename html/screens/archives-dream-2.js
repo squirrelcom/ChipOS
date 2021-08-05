@@ -1,4 +1,4 @@
 screens['archives-dream-2'] = '\
 <br/>\
-<iframe width="480" src="https://www.youtube.com/embed/0uiDWzAPRvM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope" allowfullscreen></iframe>\
+<iframe src="https://squirrelcom.github.io/snake/" frameborder="0" width="260" height="160"></iframe>\
 <br/><br/><br/><br/>' + archivesBack;
