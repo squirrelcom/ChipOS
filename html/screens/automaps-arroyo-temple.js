@@ -1,6 +1,6 @@
 const automapsArroyoNavi = '<ul class="status">\
-  <li class="c" onclick="page(\'automaps-arroyo-temple\')">Part 1</li>\
-  <li class="c" onclick="page(\'automaps-arroyo-village\')">Part 2</li>\
+  <li class="c" onclick="page(\'automaps-arroyo-temple\')">PART 1</li>\
+  <li class="c" onclick="page(\'automaps-arroyo-village\')">PART 2</li>\
 </ul>\
 ';
 
