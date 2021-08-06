@@ -1,4 +1,4 @@
-screens['status-arroyo'] = '\
+screens['status-arroyo'] = '<h2 class="title">SYSTEM</h2>\
 <br/>\
 <ul class="status">\
   <li style="text-decoration: underline">ABOUT</li>\
