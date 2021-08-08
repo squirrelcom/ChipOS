@@ -45,25 +45,19 @@
         page('splash');
         break;
 
-      case 's':
+      case 'a':
         // Status
         scroll = false;
         page('status');
         break;
 
-      case 'm':
-        // autoMaps
-        scroll = false;
-        page('automaps');
-        break;
-
-      case 'r':
+      case 'b':
         // aRchives
         scroll = false;
         page('archives');
         break;
 
-      case 'ArrowUp':
+      case '1':
         // Rotary encoder up
         if (scroll === false) {
           scroll = itemsLength - 1;
@@ -77,7 +71,7 @@
         highlight();
         break;
 
-      case 'ArrowDown':
+      case '3':
         // Rotary encoder down
         if (scroll === false) {
           scroll = 0;
@@ -91,7 +85,7 @@
         highlight();
         break;
 
-      case 'Enter':
+      case 'd':
         // Rotary encoder button clicked; select highlighted item
         const current = document.getElementsByClassName("highlight")[0];
         current.click();
