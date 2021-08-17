@@ -55,15 +55,15 @@ while True:
   elif command[0][:1] == 'B':
     if command[0][1:] == '11':
       print('STATUS')
-      keyboard.press_and_release("a")
+      keyboard.press_and_release("s")
     elif command[0][1:] == '12':
-      keyboard.press_and_release("b")
+      keyboard.press_and_release("l")
       print('ARCHIVES')
     elif command[0][1:] == '5':
       keyboard.press_and_release("c")
       print('CLOSE')
     elif command[0][1:] == '8':
-      keyboard.press_and_release("d")
+      keyboard.press_and_release("enter")
       print('ENTER')
   else:
     print('Unknown command "' + data + '"');
