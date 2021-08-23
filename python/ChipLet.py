@@ -9,7 +9,7 @@ import time
 # Check that the script isn't already running
 processes = subprocess.check_output(["/bin/ps", "-aux"]).decode(encoding='ascii')
 print(processes)
-pythons = re.finditer('python3 /home/pi/Desktop/pip-boy-2000-mk-I', processes)
+pythons = re.finditer('python3 /home/pi/Desktop/ChipOS', processes)
 pythoncount = 0
 for python in pythons:
   pythoncount = pythoncount + 1
@@ -37,10 +37,10 @@ while True:
   if command[0] == 'rot':
     if command[1] == '1':
       print('UP')
-      keyboard.press_and_release("u")
+      keyboard.press_and_release("1")
     elif command[1] == '-1':
       print('DOWN')
-      keyboard.press_and_release("d")
+      keyboard.press_and_release("3")
     else:
       print('Unknown rot command "' + data  + '"');
   elif command[0] == 'pot':
@@ -55,15 +55,15 @@ while True:
   elif command[0][:1] == 'B':
     if command[0][1:] == '11':
       print('STATUS')
-      keyboard.press_and_release("s")
+      keyboard.press_and_release("a")
     elif command[0][1:] == '12':
-      keyboard.press_and_release("l")
+      keyboard.press_and_release("b")
       print('ARCHIVES')
     elif command[0][1:] == '5':
       keyboard.press_and_release("c")
       print('CLOSE')
     elif command[0][1:] == '8':
-      keyboard.press_and_release("e")
+      keyboard.press_and_release("d")
       print('ENTER')
   else:
     print('Unknown command "' + data + '"');
