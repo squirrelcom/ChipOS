@@ -37,10 +37,10 @@ while True:
   if command[0] == 'rot':
     if command[1] == '1':
       print('UP')
-      keyboard.press_and_release("up")
+      keyboard.press_and_release("u")
     elif command[1] == '-1':
       print('DOWN')
-      keyboard.press_and_release("down")
+      keyboard.press_and_release("d")
     else:
       print('Unknown rot command "' + data  + '"');
   elif command[0] == 'pot':
@@ -63,7 +63,7 @@ while True:
       keyboard.press_and_release("c")
       print('CLOSE')
     elif command[0][1:] == '8':
-      keyboard.press_and_release("enter")
+      keyboard.press_and_release("e")
       print('ENTER')
   else:
     print('Unknown command "' + data + '"');
