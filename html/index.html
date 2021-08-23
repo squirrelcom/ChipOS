@@ -57,7 +57,7 @@
         page('archives');
         break;
 
-      case 'ArrowUp:
+      case 'u:
         // Rotary encoder up
         if (scroll === false) {
           scroll = itemsLength - 1;
@@ -71,7 +71,7 @@
         highlight();
         break;
 
-      case 'ArrowDown':
+      case 'd':
         // Rotary encoder down
         if (scroll === false) {
           scroll = 0;
@@ -85,7 +85,7 @@
         highlight();
         break;
 
-      case 'Enter':
+      case 'e':
         // Rotary encoder button clicked; select highlighted item
         const current = document.getElementsByClassName("highlight")[0];
         current.click();
